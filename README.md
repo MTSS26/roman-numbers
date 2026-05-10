@@ -1,7 +1,7 @@
 # Roman Numbers
 
 [![Java CI](https://github.com/MTSS26/roman-numbers/actions/workflows/java-ci.yml/badge.svg)](https://github.com/MTSS26/roman-numbers/actions/workflows/java-ci.yml)
-[![Coverage Status](https://coveralls.io/repos/github/MTSS26/roman-numbers/badge.svg?branch=develop)](https://coveralls.io/github/MTSS26/roman-numbers?branch=develop)
+[![Coverage Status](https://img.shields.io/coveralls/github/MTSS26/roman-numbers/develop?label=coverage)](https://coveralls.io/github/MTSS26/roman-numbers?branch=develop)
 
 Programma Java per convertire numeri interi arabi da 1 a 1000 in numeri romani e stamparli in ASCII art.
 
