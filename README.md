@@ -1,2 +1,31 @@
-# roman-numbers
-Programma in Java che traduce un qualsiasi numero intero positivo nella corrispettiva rappresentazione in numeri romani.
+# Roman Numbers
+
+[![Java CI](https://github.com/MTSS26/roman-numbers/actions/workflows/java-ci.yml/badge.svg)](https://github.com/MTSS26/roman-numbers/actions/workflows/java-ci.yml)
+[![Coverage Status](https://coveralls.io/repos/github/MTSS26/roman-numbers/badge.svg?branch=develop)](https://coveralls.io/github/MTSS26/roman-numbers?branch=develop)
+
+Programma Java per convertire numeri interi arabi da 1 a 1000 in numeri romani e stamparli in ASCII art.
+
+## Autori
+
+- Dorde Blagojevic 2116424
+- Leonardo Soligo 2111042
+
+## Comandi Maven
+
+Compilazione:
+
+```console
+mvn compile
+```
+
+Test:
+
+```console
+mvn test
+```
+
+Package, analisi statica e coverage:
+
+```console
+mvn verify
+```
