@@ -5,6 +5,9 @@
 
 package it.unipd.mtss;
 
+/**
+ * Utility class for rendering Roman numerals as ASCII art.
+ */
 public class RomanPrinter {
     private static final int ASCII_HEIGHT = 6;
     private static final String SYMBOL_SEPARATOR = " ";
@@ -13,6 +16,13 @@ public class RomanPrinter {
         // Private constructor: prevent instantiation
     }
 
+    /**
+     * Converts an Arabic integer to a Roman numeral and renders it as ASCII art.
+     *
+     * @param num the integer to convert and print
+     * @return the ASCII art representation of the Roman numeral
+     * @throws IllegalArgumentException if the number is outside the supported range
+     */
     public static String print(int num) {
         return printAsciiArt(IntegerToRoman.convert(num));
     }
