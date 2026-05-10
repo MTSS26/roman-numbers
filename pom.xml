@@ -6,10 +6,38 @@
 
   <groupId>it.unipd.mtss</groupId>
   <artifactId>roman-number</artifactId>
-  <version>1.0-SNAPSHOT</version>
+  <version>1.0.0</version>
 
   <name>roman-number</name>
+  <description>Programma Java per convertire numeri interi arabi da 1 a 1000 in numeri romani e stamparli in ASCII art.</description>
   <url>https://github.com/MTSS26/roman-numbers</url>
+
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>https://opensource.org/licenses/MIT</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+
+  <developers>
+    <developer>
+      <id>youngdord3</id>
+      <name>Dorde Blagojevic</name>
+      <url>https://github.com/youngdord3</url>
+    </developer>
+    <developer>
+      <id>subnetMusk</id>
+      <name>Leonardo Soligo</name>
+      <url>https://github.com/subnetMusk</url>
+    </developer>
+  </developers>
+
+  <scm>
+    <connection>scm:git:https://github.com/MTSS26/roman-numbers.git</connection>
+    <developerConnection>scm:git:https://github.com/MTSS26/roman-numbers.git</developerConnection>
+    <url>https://github.com/MTSS26/roman-numbers</url>
+  </scm>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
